@@ -9,10 +9,10 @@ const Dashboard = () => {
       <Counter />
       <div>
         <ul className="m-6 p-4">
-          <li>bal</li>
-          <li>sal</li>
-          <li>sal</li>
-          <li>bal</li>
+          <li>Lorem.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem.</li>
         </ul>
       </div>
 
