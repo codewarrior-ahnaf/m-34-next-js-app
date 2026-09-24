@@ -8,7 +8,7 @@ const page = async () => {
   return (
     <div>
       <h2>Post Page: {posts.length}</h2>
-      <div>
+      <div className="grid grid-cols-4 gap-3 p-4">
         {posts.map((post) => (
           <Post key={post.id} post={post} />
         ))}
